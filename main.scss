@@ -1,0 +1,13 @@
+$theme-colors: (
+  "indigo": #424874
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron .container {
+  max-width: 600px;
+}
+
+.jumbotron {
+  background: none;
+}
