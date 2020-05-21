@@ -4,11 +4,13 @@ $theme-colors: (
 
 $font-family-base: Montserrat,sans-serif;
 
+$font-size-base: 1.1rem;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
 @import "node_modules/bootstrap/scss/bootstrap";
 
 .jumbotron .container {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .jumbotron {
