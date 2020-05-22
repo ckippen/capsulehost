@@ -10055,10 +10055,16 @@ h3 {
   background: none;
 }
 
-.header-bg {
+.m-header-bg {
   width: 100%;
   height: 100%;
   background: linear-gradient(120deg, #5d64e1, #858bff);
+}
+
+.t-header-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, #3084ff, #49f0f7);
 }
 
 /*# sourceMappingURL=main.css.map */
