@@ -10,7 +10,11 @@ $font-size-base: 1.1rem;
 @import "node_modules/bootstrap/scss/bootstrap";
 
 .jumbotron .container {
-  max-width: 700px;
+  max-width: 750px;
+}
+
+.jumbotron h1 {
+  letter-spacing: 2px;
 }
 
 .jumbotron {
@@ -20,5 +24,5 @@ $font-size-base: 1.1rem;
 .header-bg {
   width: 100%;
   height: 100%;
-  background: linear-gradient(120deg,#5f66e3,#858bff);
+  background: linear-gradient(120deg,#5d64e1,#858bff);
 }
