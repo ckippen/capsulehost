@@ -15,10 +15,10 @@
   <body>
 
     <!-- Nav -->
-    <div class="m-header-bg">
+    <div class="bg-dark">
       <nav class="navbar navbar-expand-lg navbar-dark py-4">
         <div class="container">
-          <a class="navbar-brand font-weight-bolder" href="#">capsule<span class="small text-uppercase">Host</span></a>
+          <a class="navbar-brand font-weight-bolder" href="index.html">capsule<span class="small text-uppercase">Host</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,7 +44,7 @@
               </li>
             </ul> -->
             <div class="dropdown">
-              <button class="btn btn-indigo" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-red" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Login <i class="fas fa-caret-down ml-1"></i>
               </button>
               <div class="dropdown-menu dropdown-menu-lg-right mt-2 p-0 overflow-hidden" aria-labelledby="dropdownMenuButton">
@@ -62,18 +62,21 @@
         <div class="container text-center">
           <h1 class="font-weight-bold my-4">Powerful Minecraft Servers</h1>
           <p class="lead m-0">Our high performance servers are perfect for your vanilla or modpack experience at an affordable price.</p>
-          <a href="#pricing" class="btn btn-indigo my-4 shadow">View pricing</a>
+          <div class="my-5">
+            <a href="#pricing" class="btn btn-red py-2 px-4 inline-block shadow">View Pricing</a>
+            <a href="#features" class="text-white ml-4 d-none d-sm-inline-block"><i class="fas fa-angle-right text-red"></i> Learn More</a>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Features -->
-    <section class="features text-center text-indigo pb-5">
+    <section class="features text-center text-dark pb-5" id="features">
       <div class="container">
-        <h4 class="text-indigo text-center py-4">Features</h2>
+        <h4 class="text-dark text-center py-4">Features</h2>
         <div class="row">
           <div class="col mr-4 p-4">
-            <span class="fa-stack fa-1x text-indigo m-2">
+            <span class="fa-stack fa-1x text-dark m-2">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
@@ -84,7 +87,7 @@
             </p>
           </div>
           <div class="col mr-4 p-4 shadow">
-            <span class="fa-stack fa-1x text-indigo m-2">
+            <span class="fa-stack fa-1x text-dark m-2">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-users fa-stack-1x fa-inverse"></i>
             </span>
@@ -95,7 +98,7 @@
             </p>
           </div>
           <div class="col p-4">
-            <span class="fa-stack fa-1x text-indigo m-2">
+            <span class="fa-stack fa-1x text-dark m-2">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-shipping-fast fa-stack-1x fa-inverse"></i>
             </span>
@@ -108,7 +111,7 @@
         </div>
         <div class="row pt-4">
           <div class="col mr-4 p-4 shadow">
-            <span class="fa-stack fa-1x text-indigo m-2">
+            <span class="fa-stack fa-1x text-dark m-2">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
@@ -119,7 +122,7 @@
             </p>
           </div>
           <div class="col mr-4 p-4">
-            <span class="fa-stack fa-1x text-indigo m-2">
+            <span class="fa-stack fa-1x text-dark m-2">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-users fa-stack-1x fa-inverse"></i>
             </span>
@@ -130,7 +133,7 @@
             </p>
           </div>
           <div class="col p-4 shadow">
-            <span class="fa-stack fa-1x text-indigo m-2">
+            <span class="fa-stack fa-1x text-dark m-2">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-shipping-fast fa-stack-1x fa-inverse"></i>
             </span>
@@ -145,57 +148,115 @@
     </section>
 
     <!-- Pricing -->
-    <section class="pricing py-5" id="pricing">
+    <section class="pricing text-white bg-dark mt-5 py-5" id="pricing">
       <div class="container">
-        <h4 class="text-indigo text-center pb-4">Pricing</h2>
+        <h4 class="text-center">Simple Pricing</h2>
+          <h6 class="text-center lead">RAM $1 / gb per month</h6>
+            <p class="text-center">Our recommendations</p>
         <div class="row">
           <!-- Free Tier -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0 border-0">
+          <div class="col-md">
+            <div class="card shadow">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Small</h5>
-                <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
-                <hr>
-                <ul class="fa-ul text-indigo">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
-                </ul>
-                <a href="#" class="btn btn-block btn-indigo">Order Now</a>
+                <h5 class="card-title text-muted text-uppercase text-center m-0">1 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+            <p class="text-center mt-1 text-nowrap">Spigot</p>
+          </div>
+          <!-- Plus Tier -->
+          <div class="col-md">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">2 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+            <p class="text-center mt-1 text-nowrap">Vanilla</p>
+          </div>
+          <div class="col-md">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">3 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+            <p class="text-center mt-1 text-nowrap">&lt; 5 Mods</p>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">4 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+            <p class="text-center mt-1 text-nowrap">&lt; 10 Mods</p>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">5 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+            <p class="text-center mt-1 text-nowrap">+ Users</p>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">6 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+            <p class="text-center mt-1 text-nowrap">Modpack</p>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">7 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
               </div>
             </div>
           </div>
-          <!-- Plus Tier -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0 border-0 shadow">
+          <div class="col">
+            <div class="card shadow">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Medium</h5>
-                <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-                <hr>
-                <ul class="fa-ul text-indigo">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
-                </ul>
-                <a href="#" class="btn btn-block btn-indigo">Order Now</a>
+                <h5 class="card-title text-muted text-uppercase text-center m-0">8 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">9 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center m-0">10 GB</h5>
+                <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+                <!-- <a href="#" class="btn btn-block btn-indigo">Buy</a> -->
               </div>
             </div>
           </div>
           <!-- Pro Tier -->
-          <div class="col-lg-4">
+          <!-- <div class="col">
             <div class="card border-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Large</h5>
+                <h5 class="card-title text-muted text-uppercase text-center m-0">Large</h5>
                 <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
                 <hr>
                 <ul class="fa-ul text-indigo">
@@ -211,7 +272,7 @@
                 <a href="#" class="btn btn-block btn-indigo">Order Now</a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -219,11 +280,11 @@
     <!-- FAQ -->
     <section data-section-id="1" data-category="faqs" data-component-id="2c0d_9_01_awz" class="py-5">
         <div class="container">
-          <h4 class="text-indigo text-center pb-4" data-config-id="header">FAQ</h2>
+          <h4 class="text-dark text-center pb-4" data-config-id="header">FAQ</h2>
           <div class="accordion" id="faq-01" data-config-id="faq">
             <div class="mb-2 border-bottom">
               <h5 id="faq-heading1-01">
-                <button class="btn btn-link btn-block text-indigo text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse1-01" aria-expanded="false" aria-controls="faq-collapse1-01" style="white-space:normal !important; word-wrap: break-word">How is a decentralized network different from the traditional web?<i class="fas fa-chevron-down p-1 ml-auto my-auto"></i></button>
+                <button class="btn btn-link btn-block text-dark text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse1-01" aria-expanded="false" aria-controls="faq-collapse1-01" style="white-space:normal !important; word-wrap: break-word">How is a decentralized network different from the traditional web?<i class="fas fa-chevron-down p-1 ml-auto my-auto text-red"></i></button>
               </h5>
               <div class="collapse" id="faq-collapse1-01" aria-labelledby="faq-heading1-01" data-parent="#faq-01">
                 <p>Decentralization is a key aspect of PiperNet. Traditionally, to access data on a website, you needed to connect to a single server containing that data. This method of storing data makes it easy for third parties to get access to it, corrupt it or even delete it. In PiperNet it is securely stored on multiple devices in the network, which makes it harder to hack and interfere with your data.</p>
@@ -231,7 +292,7 @@
             </div>
             <div class="mb-2 border-bottom">
               <h5 id="faq-heading2-01">
-                <button class="btn btn-link btn-block text-indigo text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse2-01" aria-expanded="false" aria-controls="faq-collapse2-01" style="white-space:normal !important; word-wrap: break-word">Why shouldn't I just store my data on a Hooli Box?<i class="fas fa-chevron-down p-1 ml-auto my-auto"></i></button>
+                <button class="btn btn-link btn-block text-dark text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse2-01" aria-expanded="false" aria-controls="faq-collapse2-01" style="white-space:normal !important; word-wrap: break-word">Why shouldn't I just store my data on a Hooli Box?<i class="fas fa-chevron-down p-1 ml-auto my-auto text-red"></i></button>
               </h5>
               <div class="collapse" id="faq-collapse2-01" aria-labelledby="faq-heading2-01" data-parent="#faq-01">
                 <p>That's just the thing - if you store your data in a single place, like Gavin Belsons' poorly-made server box, your data will very susceptible to hacking. Whereas on PiperNet, your data is safe with many copies to back it up from.</p>
@@ -239,7 +300,7 @@
             </div>
             <div class="mb-2 border-bottom">
               <h5 id="faq-heading3-01">
-                <button class="btn btn-link btn-block text-indigo text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse3-01" aria-expanded="false" aria-controls="faq-collapse3-01" style="white-space:normal !important; word-wrap: break-word">What makes PiperNet so safe?<i class="fas fa-chevron-down p-1 ml-auto my-auto"></i></button>
+                <button class="btn btn-link btn-block text-dark text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse3-01" aria-expanded="false" aria-controls="faq-collapse3-01" style="white-space:normal !important; word-wrap: break-word">What makes PiperNet so safe?<i class="fas fa-chevron-down p-1 ml-auto my-auto text-red"></i></button>
               </h5>
               <div class="collapse" id="faq-collapse3-01" aria-labelledby="faq-heading3-01" data-parent="#faq-01">
                 <p>Our proprietary middle-out compression algorithm allows data to flow so fast that it can't be hacked! But, in all seriousness, the algorithm helps but it's the public, immutable ledger that makes it secure. This enables PiperNet users to exchange data without risk of it being intercepted by third parties.</p>
@@ -247,7 +308,7 @@
             </div>
             <div class="mb-2 border-bottom">
               <h5 id="faq-heading4-01">
-                <button class="btn btn-link btn-block text-indigo text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse4-01" aria-expanded="false" aria-controls="faq-collapse4-01" style="white-space:normal !important; word-wrap: break-word">How long does it take to get a company up and running on PiperNet?<i class="fas fa-chevron-down p-1 ml-auto my-auto"></i></button>
+                <button class="btn btn-link btn-block text-dark text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse4-01" aria-expanded="false" aria-controls="faq-collapse4-01" style="white-space:normal !important; word-wrap: break-word">How long does it take to get a company up and running on PiperNet?<i class="fas fa-chevron-down p-1 ml-auto my-auto text-red"></i></button>
               </h5>
               <div class="collapse" id="faq-collapse4-01" aria-labelledby="faq-heading4-01" data-parent="#faq-01">
                 <p>Access to the public network is granted within a day, but moving all your data and integrating your existing software depends on how big your company is. Startups can expect to be fully online within a week, enterprises can take up to a month due to large reliance on legacy systems and huge datasets.</p>
@@ -255,7 +316,7 @@
             </div>
             <div class="mb-2 border-bottom">
               <h5 id="faq-heading5-01">
-                <button class="btn btn-link btn-block text-indigo text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse5-01" aria-expanded="false" aria-controls="faq-collapse5-01" style="white-space:normal !important; word-wrap: break-word">How is a decentralized network different from the traditional web?<i class="fas fa-chevron-down p-1 ml-auto my-auto"></i></button>
+                <button class="btn btn-link btn-block text-dark text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse5-01" aria-expanded="false" aria-controls="faq-collapse5-01" style="white-space:normal !important; word-wrap: break-word">How is a decentralized network different from the traditional web?<i class="fas fa-chevron-down p-1 ml-auto my-auto text-red"></i></button>
               </h5>
               <div class="collapse" id="faq-collapse5-01" aria-labelledby="faq-heading5-01" data-parent="#faq-01">
                 <p>Decentralization is a key aspect of PiperNet. Traditionally, to access data on a website, you needed to connect to a single server containing that data. This method of storing data makes it easy for third parties to get access to it, corrupt it or even delete it. In PiperNet it is securely stored on multiple devices in the network, which makes it harder to hack and interfere with your data.</p>
@@ -263,7 +324,7 @@
             </div>
             <div class="mb-2 border-bottom">
               <h5 id="faq-heading6-01">
-                <button class="btn btn-link btn-block text-indigo text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse6-01" aria-expanded="false" aria-controls="faq-collapse6-01" style="white-space:normal !important; word-wrap: break-word">Why shouldn't I just store my data on a Hooli Box?<i class="fas fa-chevron-down p-1 ml-auto my-auto"></i></button>
+                <button class="btn btn-link btn-block text-dark text-left d-flex text-decoration-none" type="button" data-toggle="collapse" data-target="#faq-collapse6-01" aria-expanded="false" aria-controls="faq-collapse6-01" style="white-space:normal !important; word-wrap: break-word">Why shouldn't I just store my data on a Hooli Box?<i class="fas fa-chevron-down p-1 ml-auto my-auto text-red"></i></button>
               </h5>
               <div class="collapse" id="faq-collapse6-01" aria-labelledby="faq-heading6-01" data-parent="#faq-01">
                 <p>That's just the thing - if you store your data in a single place, like Gavin Belsons' poorly-made server box, your data will very susceptible to hacking. Whereas on PiperNet, your data is safe with many copies to back it up from.</p>
@@ -274,17 +335,17 @@
       </section>
 
     <!-- Footer -->
-    <footer class="text-white bg-indigo mt-5">
+    <footer class="text-white bg-dark mt-5">
       <div class="container">
         <div class="row text-center d-flex justify-content-center pt-4">
           <div class="col-md-2">
             <h6 class="text-uppercase small font-weight-bold">
-              <a href="#" class="text-white">Minecraft</a>
+              <a href="index.html" class="text-white">Minecraft</a>
             </h6>
           </div>
           <div class="col-md-2">
             <h6 class="text-uppercase small font-weight-bold">
-              <a href="#" class="text-white">Terraria</a>
+              <a href="terraria.html" class="text-white">Terraria</a>
             </h6>
           </div>
           <div class="col-md-2">
