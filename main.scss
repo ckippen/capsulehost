@@ -12,6 +12,19 @@ $font-size-base: 1.1rem;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
 @import "node_modules/bootstrap/scss/bootstrap";
 
+.rounded-top-left {
+    border-top-left-radius: 1rem;
+}
+.rounded-top-right {
+    border-top-right-radius: 1rem;
+}
+.rounded-bottom-left {
+    border-bottom-left-radius: 1rem;
+}
+.rounded-bottom-right {
+    border-bottom-right-radius: 1rem;
+}
+
 .container .navbar-brand:hover {
   color: #f8646c;
 }
