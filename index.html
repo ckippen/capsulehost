@@ -7,7 +7,6 @@
 
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/649d3371d5.js" crossorigin="anonymous"></script>
-    <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="67ff0a22-9074-4bb0-a754-2e2ae0fa9ff4";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="main.css">
@@ -18,7 +17,7 @@
 
     <!-- Nav -->
     <div class="bg-dark">
-      <nav class="navbar navbar-expand-lg navbar-dark py-4">
+      <nav class="navbar navbar-expand-lg navbar-dark pt-4">
         <div class="container">
           <a class="navbar-brand font-weight-bolder" href="index.html">capsule<span class="small text-uppercase">Host</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,13 +49,17 @@
                 Login <i class="fas fa-angle-down ml-1"></i>
               </button>
               <div class="dropdown-menu dropdown-menu-lg-right mt-2 p-0 overflow-hidden" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item py-3 px-4" href="#">Client
-
+                <a class="dropdown-item py-3 pl-4 pr-5" href="#">Client Panel
                   <span class="d-block small text-muted">Billing & Support</span>
                 </a>
                 <div class="dropdown-divider m-0"></div>
-                <a class="dropdown-item py-3 px-4" href="#">Minecraft
-                <span class="d-block small text-muted">Control Panel</span></a>
+                <a class="dropdown-item py-3 pl-4 pr-5" href="#">Game Server
+                  <span class="d-block small text-muted">Control Panel</span>
+                </a>
+                <div class="dropdown-divider m-0"></div>
+                <a class="dropdown-item py-3 pl-4 pr-5" href="#">Web Hosting
+                  <span class="d-block small text-muted">Control Panel</span>
+                </a>
               </div>
             </div>
           </div>
@@ -64,13 +67,18 @@
       </nav>
 
       <!-- Banner -->
-      <div class="jumbotron text-white mb-0 d-flex justify-content-center">
-        <div class="container text-center">
-          <h1 class="display-4 font-weight-bold my-4">Powerful Minecraft Servers</h1>
-          <p class="lead w-75 mx-auto">Our high performance servers are perfect for your vanilla or modpack experience at an affordable price.</p>
-          <div class="my-5">
-            <a href="#pricing" class="btn btn-red py-2 px-4 inline-block shadow">Starting at $1</a>
-            <a href="#features" class="text-white ml-4 d-none d-sm-inline-block"><i class="fas fa-angle-right text-red mr-1"></i> Learn More</a>
+      <div class="jumbotron text-white mb-0 w-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 my-auto">
+              <h1 class="display-4 font-weight-bold pb-4">Powerful Minecraft Servers</h1>
+              <p class="lead pb-4">Our high performance servers are perfect for your vanilla or modpack experience at an affordable price.</p>
+                <a href="#pricing" class="btn btn-red py-2 px-4 inline-block shadow">Starting at $1</a>
+                <a href="#features" class="text-white ml-4 d-none d-sm-inline-block"><i class="fas fa-angle-right text-red mr-1"></i> Learn More</a>
+            </div>
+            <div class="col-xl-6">
+              <img src="banner.svg" />
+            </div>
           </div>
         </div>
       </div>
@@ -118,7 +126,7 @@
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-file fa-stack-1x fa-inverse"></i>
             </span>
-            <h5 class="font-weight-bold p-2">FTP File Transfer</h5>
+            <h5 class="font-weight-bold p-2">Full FTP Access</h5>
             <p class="lead small">
               Install any modpack easily with your favorite FTP client.
             </p>
@@ -140,7 +148,7 @@
             </span>
             <h5 class="font-weight-bold p-2">99% Uptime</h5>
             <p class="lead small">
-              Maintenence and downtime may occur but we strive to keep a 99% uptime guarantee.
+              We have a <a href="#" class="text-red">public status page</a> to verify our uptime and to notify you of any issues.
             </p>
           </div>
         </div>
@@ -151,7 +159,7 @@
     <section class="pricing text-white bg-dark py-5" id="pricing">
       <div class="container text-center">
         <h2>Simple Pricing</h2>
-        <p>All features are included.</p>
+        <p>All features are included. No hidden fees.</p>
 
         <div class="row justify-content-md-center p-4">
           <!-- Tier 1 -->
@@ -330,9 +338,7 @@
         </div>
       </div>
       <!-- Copyright -->
-      <div class="footer-copyright text-center pb-4 small">Copyright © 2020
-        <a href="https://capsulehost.com/" class="text-white"> CapsuleHost.com</a>
-      </div>
+      <div class="footer-copyright text-center pb-4 small">Copyright © 2020 CapsuleHost. All Rights Reserved.</div>
     </footer>
 
     <!-- JavaScript -->
